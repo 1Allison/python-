@@ -1,11 +1,7 @@
 def fac(n):
-    fac=1
-    if n==0:
-        fac=1
-    else:
-        for i in range(1,n+1):
-            fac=fac*(i)
-    return fac
+    if n==1 or n==0:
+        return 1
+    return n*fac(n-1)
     
 n=int(input("请输入一个整数"))
 if n<0:
