@@ -9,4 +9,5 @@ for k in range(48,58):
 ma = random.sample(list1,6)
 print(ma)
 ma=''.join(ma)
+#连接ma成字符串 （）内为连接它的形式
 print(ma)
