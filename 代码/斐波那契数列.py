@@ -1,6 +1,6 @@
 #判断输入的值是否合法
 nterms= int(input("请输入n维斐波那契数列的值:\n"))
-n1=0
+n1=1
 n2=1
 count=2
 if nterms <= 0:

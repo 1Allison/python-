@@ -73,11 +73,108 @@
 
 # print(getYesterday())
 
-import datetime
-def gettomorrow():
-    today=datetime.date.today()
-    oneday=datetime.timedelta(days=1)
-    tomorrow=today+oneday
-    return tomorrow
+# import datetime
+# def gettomorrow():
+#     today=datetime.date.today()
+#     oneday=datetime.timedelta(days=1)
+#     tomorrow=today+oneday
+#     return tomorrow
 
-print(gettomorrow())
+# print(gettomorrow())
+# sum=0
+# for i in range(1,100):
+#     sum+=i
+#     i=i+1
+
+# print(sum)
+# a= True
+# b=not a
+# print(b)
+# print(not b)
+# print(a!=b)
+# print(a and b)
+# print(a or b)
+# print(1<2 and b==True)
+
+# print('this is the \n same line')
+
+# for i in range (0,5):
+#     for j in range(0,i+1):
+#         print('*',end=' ')
+#     print()  
+
+# # print(bool(' '))
+
+# for i in range(1,10):
+#     print(i,end=' ')
+# print(list(range(1,10)))
+# from random import choice
+# score_you = 0
+# score_com = 0
+# dir_you = input("请输入一个方向射门")
+# dir_com = choice(list['左'，'中','右'])
+# for i in range(0,5):
+#     if(dir_you!=dir_com):
+#         print("Goal!")
+#             score=score+1
+#     else:
+#        print("Oops...")(
+#     print('score:%(you)-%d(com)\n' %(score_you,score_com)))
+#     if (score>=3):
+#         break
+
+# sum=0
+# for i in range(1,101):
+#     sum=sum+i
+
+# print(sum)
+# i = 0
+# while i < 5:
+#    i += 1
+#    for j in range(3):
+#        print (j)
+#        if j == 2:
+#            break
+#    for k in range(3):
+#        if k == 2:
+#            continue
+#        print (k)
+#    if i > 3:
+#        break
+#    print (i)
+# q = int(input())
+# n = 1
+# an = 1
+# while n <= 10:
+#     print(an)
+#     an *= q
+#     n += 1
+# from math import pi
+# print (pi)
+
+# def feibo(n):
+#         print(1)
+#     if n==0:
+#         pass
+#     elif n==1:  
+#         print(1)
+#     else:
+#         for i in range(n):
+#             return feibo(i)+feibo(i+1)
+            
+
+# feibo(3)
+
+n = int(input())
+x = 3
+a1 = 1
+a2 = 1
+print(a1)
+print(a2)
+
+while x <= n:
+   a3 = a1 + a2
+   print(a3)
+   a1 = a2
+   a2 = a3
+   x += 1
